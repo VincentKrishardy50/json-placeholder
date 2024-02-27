@@ -6,6 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import PostDetail from "../components/post_detail";
 import CommentList from "../components/comment_list";
+import MySpinner from "../components/own_spinner";
 
 export default function Comment() {
   const [comment, setComment] = useState([]);

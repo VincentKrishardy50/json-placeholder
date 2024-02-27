@@ -5,10 +5,12 @@ import {
   } from "reactstrap";
 
 export default function UserDetail({detail}){
+    console.log(detail.address)
     return(
           <Card className="mt-3">
             <CardHeader>{detail.name}</CardHeader>
             <CardBody>
+
               <div className="row">
                 <div className="col-sm">
                   <label className="form-label">
